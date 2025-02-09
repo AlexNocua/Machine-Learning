@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for
 from asistente import comandos, speech_to_text, text_to_speech
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
+
 
 # @app.route("/", metho*ds=["GET", "POST"])
 # def home():
