@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: assistente-virtual
+    env: python
+    buildCommand: pip install -r Sistema\ de\ asistencia\ virtual/requirements.txt
+    startCommand: gunicorn Sistema\ de\ asistencia\ virtual/app:app
+    envVars:
+      - key: FLASK_APP
+        value: "Sistema de asistencia virtual/app.py"
