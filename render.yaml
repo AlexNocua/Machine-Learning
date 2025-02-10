@@ -2,6 +2,6 @@ services:
   - name: asistencia-virtual-api
     type: web
     repo: Machine-Learning
-    branch: main
+    branch: master
     buildCommand: pip install -r Sistema_de_asistencia_virtual/requirements.txt
     startCommand: gunicorn --bind 0.0.0.0:8000 Sistema_de_asistencia_virtual.app:app
