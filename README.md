@@ -1,4 +1,4 @@
-# 🚀 Proyecto: Modelo de Baches y Señales de Tránsito - YOLOv5
+# 🚀 Proyecto: Machine-Learning
 
 ## 📌 Descripción
 
